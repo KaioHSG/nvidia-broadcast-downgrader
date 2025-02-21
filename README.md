@@ -4,4 +4,16 @@
 
 # NVIDIA Broadcast Downgrader
 
-A simple script to download a old version of NVIDIA Broadcast and block update requests. 
+A simple script to download a old version of NVIDIA Broadcast and block update requests.
+
+## How to use?
+
+1. Download [**`NVIDIA-Broadcast-Downgrader.bat`**](https://github.com/KaioHSG/nvidia-broadcast-downgrader/releases/latest).
+2. Run the script and accept the administrator options.
+3. Wait for the NVIDIA Broadcast download and follow the installation steps.
+
+## How to remove the Update Block?
+
+1. Run the **`Update-Block-Remove.bat`** file as an administrator (if you don’t have the file, download it [**here**](https://github.com/KaioHSG/nvidia-broadcast-downgrader/blob/main/Update-Block-Remove.bat)).
+
+Now the update requests are available.
