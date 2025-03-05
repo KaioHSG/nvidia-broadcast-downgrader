@@ -1,3 +1,3 @@
-echo @echo off
-echo netsh advfirewall firewall delete rule name="NVIDIA Broadcast Downgrader"
-echo pause
+@echo off
+netsh advfirewall firewall delete rule name="NVIDIA Broadcast Downgrader"
+pause
