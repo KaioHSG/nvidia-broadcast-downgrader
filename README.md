@@ -14,6 +14,10 @@ A simple script to download a old version of NVIDIA Broadcast and block update r
 
 ## How to remove the Update Block?
 
-1. Run the **`Update-Block-Remove.bat`** file as an administrator (if you don’t have the file, download it [**here**](https://github.com/KaioHSG/nvidia-broadcast-downgrader/blob/main/Update-Block-Remove.bat)).
+1. Run the **`Update-Block-Remove.bat`** file as an administrator (if you don’t have the file, download it [**here**](https://github.com/KaioHSG/nvidia-broadcast-downgrader/blob/main/Update-Block-Remove.bat)). Or with the Command Prompt (CMD) as administrator, run the line below.
+
+``` console
+netsh advfirewall firewall delete rule name="NVIDIA Broadcast Downgrader"
+```
 
 Now the update requests are available.
